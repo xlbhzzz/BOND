@@ -1,15 +1,15 @@
 # BOND
 This repository contains the source code of paper "BOND: Bootstrapping From-Scratch Name Disambiguation with Multi-task Promoting".
 
-# Overview
 ![Overview](/Bond.png)
-# Datasets
+
+## Datasets
 The datasets WhoIsWho can be downloaded from: https://www.aminer.cn/whoiswho
 
 Paper embedding can be downloaded from: https://pan.baidu.com/s/1A5XA9SCxvENM2kKPUv6X4Q?pwd=c9kk 
 Password: c9kk
 
-# Requirements
+## Requirements
     gensim==4.3.0
     matplotlib==3.7.1
     numpy==1.24.3
@@ -21,7 +21,7 @@ Password: c9kk
     torch-geometric==2.2.0
     tqdm==4.65.0
 
-# Usage
+## Usage
 
 **BOND**
 
