@@ -225,6 +225,6 @@ if __name__ == "__main__":
     """
     some pre-processing
     """
-    # dump_name_pubs()
-    # dump_features_relations_to_file()
+    dump_name_pubs()
+    dump_features_relations_to_file()
     build_graph()
