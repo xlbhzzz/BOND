@@ -25,7 +25,7 @@ Password: c9kk
 
 **BOND**
 
-Download dataset and embedding, organize as follows:
+Download dataset "src" and embedding "paper_emb", organize as follows:
 
 
     .
