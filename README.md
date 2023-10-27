@@ -2,7 +2,7 @@
 This repository contains the source code of paper "BOND: Bootstrapping From-Scratch Name Disambiguation with Multi-task Promoting".
 
 # Overview
-
+![Overview](/Bond.png)
 # Datasets
 The datasets WhoIsWho[1] can be downloaded from: https://www.aminer.cn/whoiswho
 
@@ -23,30 +23,31 @@ tqdm==4.65.0
 
 # Usage
 
-## BOND
+**BOND**
 
 Download dataset and embedding, organize as follows:
 
-'''
-data
-├── paper_emb
-│   ├── test
-│   ├── train
-│   └── valid
-└── src
-    ├── sna-test
-    ├── sna-valid
-    └── train
-'''
+
+    .
+    ├── code
+    ├── data
+        ├── paper_emb
+        │   ├── test
+        │   ├── train
+        │   └── valid
+        └── src
+            ├── sna-test
+            ├── sna-valid
+            └── train
+
 
 Execute the following command:
 
-'''
-python code/preprocess.py
-python code/main.py
-'''
+    python code/preprocess.py
+    python code/main.py
 
-## BOND+
+
+**BOND+**
 
 To be continued.
 
