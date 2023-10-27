@@ -135,7 +135,6 @@ def train(name, pubs, results):
 
 if __name__ == '__main__':
     names, pubs = load_dataset(args.mode)
-    # names = ["aimin_li"]
     results = {}
 
     f1_list = []
