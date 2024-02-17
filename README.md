@@ -43,12 +43,16 @@ Download dataset "src" and embedding "paper_emb", organize as follows:
 
 Execute the following command:
 
-    python code/preprocess.py
-    python code/main.py
+    python code/preprocess.py 
+    python code/main.py --cuda True --post_match True --mode train
 
 
 **BOND+**
 
-To be continued.
+Execute the following command:
+```
+python code/ensem.py --cuda True --post_match True --mode train
+```
+
 
 
